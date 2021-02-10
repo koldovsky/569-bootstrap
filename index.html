@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickerz Bootstrap Edition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Stickerz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Card</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselProducts" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselProducts" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/baby-yoda.svg" class="d-block w-100" alt="Baby Yoda">
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banana.svg" class="d-block w-100" alt="Banana">
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/girl.svg" class="d-block w-100" alt="Girl">
+                    <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/viking.svg" class="d-block w-100" alt="Viking">
+                    <div class="carousel-caption d-none d-md-block">
+                            <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducts"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProducts"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Products</h2>
+        <div class="product-list row">
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/baby-yoda.svg" class="card-img-top" alt="Baby Yoda">
+                <div class="card-body">
+                    <h5 class="card-title">Baby Yoda</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productInfoModal">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/banana.svg" class="card-img-top" alt="Banana">
+                <div class="card-body">
+                    <h5 class="card-title">Banana</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/girl.svg" class="card-img-top" alt="Girl">
+                <div class="card-body">
+                    <h5 class="card-title">Girl</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/viking.svg" class="card-img-top" alt="Viking">
+                <div class="card-body">
+                    <h5 class="card-title">Viking</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/baby-yoda.svg" class="card-img-top" alt="Baby Yoda">
+                <div class="card-body">
+                    <h5 class="card-title">Baby Yoda</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/banana.svg" class="card-img-top" alt="Banana">
+                <div class="card-body">
+                    <h5 class="card-title">Banana</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/girl.svg" class="card-img-top" alt="Girl">
+                <div class="card-body">
+                    <h5 class="card-title">Girl</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+            <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+                <img src="img/viking.svg" class="card-img-top" alt="Viking">
+                <div class="card-body">
+                    <h5 class="card-title">Viking</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Info</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+
+    <div class="modal fade" id="productInfoModal" tabindex="-1" aria-labelledby="productInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productInfoModalLabel">Baby Yoda</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/baby-yoda.svg" class="card-img-top" alt="Baby Yoda">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

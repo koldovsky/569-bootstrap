@@ -1,0 +1,9 @@
+#carouselProducts img {
+    max-height: 500px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: peru;
+    border-color: peru;
+}
